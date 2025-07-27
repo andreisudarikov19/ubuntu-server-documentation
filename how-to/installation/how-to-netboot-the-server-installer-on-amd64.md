@@ -40,9 +40,9 @@ There are several implementations of the DHCP/BOOTP and TFTP protocols available
    tftp-root=/srv/tftp
    ```
 
-```{note}
-This assumes several things about your network; read `man dnsmasq` or the default `/etc/dnsmasq.conf` for many more options.
-```
+   ```{note}
+   This assumes several things about your network; read `man dnsmasq` or the default `/etc/dnsmasq.conf` for many more options.
+   ```
 
 1. Restart `dnsmasq` with:
 
